@@ -1,0 +1,147 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.div-out{
+	width: 1530px;
+	height: 755px;
+	background-image: url(img/2.jpg);
+	background-repeat: no-repeat;
+	background-size: 650px;
+	background-position: 935px 365px;
+
+}
+.startPage{
+	width: 350px;
+	height: 245px;
+	z-index: 999;
+	position: absolute;
+	left: 570px;
+	top: 240px;
+	cursor: pointer;
+	/*display: none;*/
+}
+.imgStart{
+	overflow: hidden;
+	position: absolute;
+	width: 350px;
+}
+.wrapper{
+	width: 1260px;
+	height: 640px;
+	/*border: 1px solid black;*/
+	background-image: url(img/1.png);
+	background-size: 1260px 640px;
+	background-repeat: no-repeat;
+	opacity: 0.9;
+	position: relative;
+	left: 70px;
+	top: 50px;
+}
+.content{
+	width: 1200px;
+	height: 600px;
+	position: absolute;
+	left: 30px;
+	top: 18px;
+	/*border: 1px solid red;*/
+}
+.stopPage{
+	position: absolute;
+	left: 1250px;
+	top: 705px;
+	display: none;
+}
+.imgStop{
+	width: 38px;
+/*	opacity: 0.84;*/
+	cursor: pointer;
+}
+.stopOverPage{
+	height: 150px;
+	width: 150px;
+	position: absolute;
+	left: 670px;
+	top: 290px;
+	display: none;
+	z-index: 999;
+	border-radius:50%;
+	overflow: hidden;
+	opacity: 0.8;
+}
+.imgStopOver{
+	width: 150px;
+	cursor: pointer;
+}
+.scoreBox{
+	width: 200px;
+	height: 110px;
+	background-image: url(img/6.jpg);
+	background-size: 200px 115px;
+	background-repeat: no-repeat;
+	position: absolute;
+	left: 1330px;
+	top: 50px;
+	/*border: 1px solid black;*/
+}
+.score{
+	font-size: 26px;
+	position: absolute;
+	left: 42px;
+	top: 43px;
+}
+.over{
+	width: 350px;
+	height: 250px;
+	position: absolute;
+	left: 550px;
+	top: 260px;
+	background-image: url(img/gameOver.jpg);
+	background-repeat: no-repeat;
+	background-position: 15px 20px;
+	border: 2px solid black;
+	border-radius:50px;
+	display: none;
+}
+.loser-score{
+	position: absolute;
+	left: 125px;
+	top: 200px;
+	font-size: 30px;
+}
+.closePage{
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	left: 334px;
+	top: -11px;
+	border-radius:50%;
+	overflow: hidden;
+
+}
+.imgClose{
+	width: 30px;
+	cursor: pointer;
+}
+.food{
+	background-image: url(img/4.jpg);
+	background-size: 30px 30px;
+	background-repeat: no-repeat;
+}
+.snakeHead{
+	background-image: url(img/snake.jpg);
+	background-size: 30px 30px;
+	background-repeat: no-repeat;
+}
+.snakeBody{
+	background-image: url(img/3.jpg);
+	background-size: 30px 30px;
+	background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
